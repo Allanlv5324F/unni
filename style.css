@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h2{
+    display: inline;
+    font-family: system-ui;
+}
+
+.heading button{
+    border: 3px solid white;
+    float: right;
+}
+
+#play, #status, #restart{
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.copy_right_footer{
+    width: 100%;
+    line-height: 3;
+    background-color: #333;
+    bottom:0;
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+
+h4{
+    font-family: system-ui;
+}
+
+canvas{
+    border: white 5px solid;
+    box-shadow: lightslategray 5px 5px 5px;
+}
